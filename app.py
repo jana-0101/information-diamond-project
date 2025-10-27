@@ -6,7 +6,6 @@ from joblib import dump, load
 import streamlit as st
 import pandas as pd
 import duckdb
-import sklearn
 
 # TODO
 # Graphs, plots, etc of filtered dataframe...
