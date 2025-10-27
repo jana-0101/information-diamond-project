@@ -22,7 +22,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     # Specify datatset path here
-    df = pd.read_csv("dataset_190_braziltourism.csv")
+    df = pd.read_csv("dataset_190_braziltourism(1).csv")
     df.columns = df.columns.str.replace(" ", "_")
 
     # Classification cleaning: Categorize all misclassified data as Unknown
