@@ -1,4 +1,3 @@
-import scikit-learn as sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsRegressor
@@ -7,6 +6,7 @@ from joblib import dump, load
 import streamlit as st
 import pandas as pd
 import duckdb
+import sklearn
 
 # TODO
 # Graphs, plots, etc of filtered dataframe...
